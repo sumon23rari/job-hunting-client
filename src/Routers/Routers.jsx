@@ -24,7 +24,7 @@ export const router=createBrowserRouter([
             {
                 path:'college/:id',
                 element:<PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
-                loader:({params})=>fetch(`http://localhost:7000/specificCollege/${params.id}`)
+                loader:({params})=>fetch(`https://job-hunting-server-sigma.vercel.app/specificCollege/${params.id}`)
             },
             {
                 path:'colleges',
@@ -41,12 +41,12 @@ export const router=createBrowserRouter([
             {
                 path:'myCollege/:email',
                 element:<MyCollege></MyCollege>,
-                loader:(({params})=>fetch(`http://localhost:7000/admissionOn/${params.email}`))
+                loader:(({params})=>fetch(`https://job-hunting-server-sigma.vercel.app/admissionOn/${params.email}`))
             },
             {
                 path:'myProfile/:email',
                 element:<PrivateRoute><MyProfile></MyProfile></PrivateRoute>,
-                loader:(({params})=>fetch(`http://localhost:7000/admissionOn/${params.email}`))
+                loader:(({params})=>fetch(`https://job-hunting-server-sigma.vercel.app/admissionOn/${params.email}`))
             },
             {
                 path:'logIn',

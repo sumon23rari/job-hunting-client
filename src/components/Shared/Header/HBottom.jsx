@@ -15,7 +15,7 @@ const HBottom = () => {
 
     }
     const handleClick=()=>{
-      fetch(`http://localhost:7000/searchCollege?collegeName=${inputValue}`)
+      fetch(`https://job-hunting-server-sigma.vercel.app/searchCollege?collegeName=${inputValue}`)
       .then((res) => res.json())
       .then((data) =>{
          setGetCollege(data)
