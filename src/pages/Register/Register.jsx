@@ -117,6 +117,9 @@ const Register = () => {
                                 {errors.password?.type === 'pattern' && <p className="text-red-600">Password must have one Uppercase one lower case, one number and one special character.</p>}
                             
                             </div>
+                            <div className="form-control mt-6">
+        <input className="btn btn-primary" type="submit" value="Sign Up"/>
+        </div>
             
             </form>
             <p className='text-center my-3'>already have an account <Link to="/logIn" className='font-bold'>logIn</Link></p>
