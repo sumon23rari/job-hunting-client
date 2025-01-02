@@ -41,13 +41,16 @@ const Register = () => {
           profileUpdate(data.name,data.photo)
           .then(()=>{
       
-            Swal.fire({
-              title: `user profile update successfully`,
-             
-              icon: 'success',
-              confirmButtonText: 'Cool'
-            })
-          
+     
+        
+Swal.fire({
+  position: "middle",
+  icon: "success",
+  title: `user profile update successfully`,
+  showConfirmButton: false,
+  timer: 1500
+});
+            navigate('/')
       
           })
       
