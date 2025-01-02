@@ -1,0 +1,51 @@
+[
+    {
+      "collegeName": "Oxford University",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-01-15 to 2024-03-15",
+      "events": ["Freshers' Week", "Annual Research Conference", "Cultural Fest"],
+      "researchHistory": "Established groundbreaking studies in AI and quantum computing.",
+      "sports": ["Rowing", "Cricket", "Soccer"]
+    },
+    {
+      "collegeName": "Harvard University",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-02-01 to 2024-04-30",
+      "events": ["Innovation Summit", "Harvard-Yale Game", "Global Education Fair"],
+      "researchHistory": "Pioneered advancements in medical science and economics.",
+      "sports": ["Basketball", "Ice Hockey", "Rowing"]
+    },
+    {
+      "collegeName": "Stanford University",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-03-01 to 2024-05-15",
+      "events": ["Tech Expo", "Spring Carnival", "Alumni Meet"],
+      "researchHistory": "Known for innovations in technology and sustainability.",
+      "sports": ["Football", "Tennis", "Track and Field"]
+    },
+    {
+      "collegeName": "University of Cambridge",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-04-01 to 2024-06-15",
+      "events": ["Cambridge Science Festival", "May Ball", "Art Symposium"],
+      "researchHistory": "Contributions to physics, biology, and literary studies.",
+      "sports": ["Rowing", "Cricket", "Badminton"]
+    },
+    {
+      "collegeName": "Massachusetts Institute of Technology (MIT)",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-05-01 to 2024-07-01",
+      "events": ["Hackathon", "AI Symposium", "Startup Fair"],
+      "researchHistory": "Renowned for breakthroughs in robotics and space exploration.",
+      "sports": ["Swimming", "Basketball", "Fencing"]
+    },
+    {
+      "collegeName": "University of Tokyo",
+      "collegeImage": "https://i.ibb.co.com/8BcwrYR/university-2704306-1280.jpg",
+      "admissionDates": "2024-06-01 to 2024-08-01",
+      "events": ["Cultural Exchange Program", "Science and Technology Fair", "Annual Debate Competition"],
+      "researchHistory": "Notable for advancements in renewable energy and nanotechnology.",
+      "sports": ["Judo", "Baseball", "Soccer"]
+    }
+  ]
+  
